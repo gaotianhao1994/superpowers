@@ -17,7 +17,7 @@ jobs:
 
       - name: Add upstream remote
         run: |
-          git remote add upstream ${{ vars.UPSTREAM_REPO_URL }}
+          git remote add upstream https://github.com/obra/superpowers.git
           git remote -v
 
       - name: Fetch upstream branches
